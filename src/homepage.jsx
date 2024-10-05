@@ -23,7 +23,7 @@ function Home() {
       <meta property="og:description" content="Scods offers the best tools and courses for dropshipping and e-commerce enthusiasts." />
       <meta property="og:image" content="https://files.catbox.moe/6c343d.png" />
       <meta property="og:url" content="https://scods.xyz" />
-    </Helmet>
+  </Helmet>
   
 
   const navigate = useNavigate();
@@ -188,7 +188,7 @@ function Home() {
       const querySnapshot = await getDocs(q);
 
       if (querySnapshot.empty) {
-        toast.error("Username does not exist.");
+        toast.error("Username doesn't exist.");
         return;
       }
 
